@@ -7,6 +7,7 @@ import Produtos from "./pages/Produtos"
 import Quemsomos from "./pages/Quemsomos"
 import Carrinho from "./pages/Carrinho"
 import { Modal } from "bootstrap"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         </Route>
     </Routes>
 
+    <Footer></Footer>
     </Router>
     
 

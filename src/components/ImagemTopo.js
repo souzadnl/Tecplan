@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-function ImagemTopo(texto) {
+function ImagemTopo(props) {
 
     return(
         <div>
-            <span>{texto}</span>
+            <span>{props.text}</span>
         </div>
     )
 }
