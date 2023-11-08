@@ -1,8 +1,8 @@
+import CardContatos from "../components/CardContatos"
+
 function Contato(){
     return(
-        <div>
-            <h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1><h1>Contato</h1>
-        </div>
+        <CardContatos></CardContatos>
     )
 }
 
