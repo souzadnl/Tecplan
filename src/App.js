@@ -6,7 +6,6 @@ import Contato from "./pages/Contato"
 import Produtos from "./pages/Produtos"
 import Quemsomos from "./pages/Quemsomos"
 import Carrinho from "./pages/Carrinho"
-import { Modal } from "bootstrap"
 import Footer from "./components/Footer"
 
 function App() {
