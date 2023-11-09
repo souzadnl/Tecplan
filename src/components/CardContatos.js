@@ -30,8 +30,8 @@ function CardContatos() {
                 <h1 class="mb-4 text-2xl text-[#3A3A3A] font-bold">Nos envie uma mensagem!</h1>
                 
 
-                <form class="d-flex justify-evenly flex-wrap space-between bg-success">
-                    <div class="max-lg:w-full w-5/12 py-4">
+                <form class="d-flex justify-evenly flex-wrap space-between">
+                    <div class="max-lg:w-full w-5/12 py-4 h-full">
                         
                         <InputStyled name="name" text="Nome Completo" placeholder="Digite seu nome completo"></InputStyled>
                         <InputStyled name="email" text="Email" placeholder="Digite seu email"></InputStyled>
