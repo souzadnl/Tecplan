@@ -1,5 +1,3 @@
-import EnviarStyled from "./EnviarStyled"
-
 function TextareaStyled(props) {
     return(
         <div class="max-lg:w-full w-5/12 py-4 h-2/4">

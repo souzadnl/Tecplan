@@ -1,5 +1,11 @@
+import SectionProduto from "../components/SectionProduto"
+
 function Produtos(){
-    return <h1>Produtos</h1>
+    return (
+        <div>
+            <SectionProduto></SectionProduto>
+        </div>
+    )
 }
 
 export default Produtos
