@@ -3,7 +3,7 @@ import CardQuemSomos from "../components/CardQuemSomos"
 
 const DivImage = styled.div`
     
-    background-image: url("./images/QuemSomos.svg");
+    background-image: url("./images/QuemSomos.webp");
     background-size: cover;
     background-position: top;
     height: calc(25vh + 20vw);
