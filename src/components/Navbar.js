@@ -135,8 +135,8 @@ function Navbar() {
             <BarraNavegacao class="container-fluid">
                 <Link to="/">
                     <picture>
-                    <source media="(min-width: 1025px)"  width="109.87px" srcset="./images/logo.svg"></source>
-                    <source media="(max-width: 1024px)"  width="36px" srcset="./images/logoMobile.svg"></source>
+                    <source media="(min-width: 1025px)"  width="109.87px" srcset="./images/logo.webp"></source>
+                    <source media="(max-width: 1024px)"  width="36px" srcset="./images/logoMobile.webp"></source>
                     <img src="" alt="Descrição da Imagem"></img>
                     </picture>
                 </Link>
