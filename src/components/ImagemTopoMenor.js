@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 function ImagemTopoMenor(props) {
     const DivImage = styled.div`
-    background-image: url("${props.image}");
+    background-image: url(${props.image});
     background-size: cover;
     background-position: top;
     height: calc(14vh + 10vw);
