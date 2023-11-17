@@ -1,8 +1,9 @@
+import ImagemTopoMenor from "../components/ImagemTopoMenor"
+
 function Home(){
     return (
-        <div>
-            <h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1><h1>Home</h1>
-        </div>
+        <ImagemTopoMenor image="./images/ImagemTopoHome.webp"></ImagemTopoMenor>
+
     )
 }
 

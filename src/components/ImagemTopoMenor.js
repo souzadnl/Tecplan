@@ -1,23 +1,20 @@
 import styled from "styled-components"
 
-const DivImage = styled.div`
-    
-background-image: url("./images/ImagemTopoProdutos.webp");
-background-size: cover;
-background-position: top;
-height: calc(14vh + 10vw);
-margin-top: 50px; 
-padding: calc(2vh + 3vw);
+function ImagemTopoMenor(props) {
+    const DivImage = styled.div`
+    background-image: url("${props.image}");
+    background-size: cover;
+    background-position: top;
+    height: calc(14vh + 10vw);
+    margin-top: 50px; 
+    padding: calc(2vh + 3vw);
 
-h1 {
-    font-size: calc(2vw + 1.9vh);
-}
+    h1 {
+        font-size: calc(2vw + 1.9vh);
+    }
 
-@media (min-width:)
-
-`
-
-function ImagemTopoMenor() {
+    @media (min-width:)
+    `
 
     return(
         <DivImage>

@@ -5,7 +5,7 @@ import SectionProdutoRight from "../components/SectionProdutoRight"
 function Produtos(){
     return (
         <div class="pb-20">
-            <ImagemTopoMenor></ImagemTopoMenor>
+            <ImagemTopoMenor image="./images/ImagemTopoProdutos.webp"></ImagemTopoMenor>
 
             {/* Trator */}
             <SectionProdutoLeft image="./images/Trator.webp" text="TRABALHAMOS COM OS MELHORES" product="TRATORES" subtitle="Aqui você encontra os tratores mais tecnológicos e modernos do mercado"></SectionProdutoLeft>
