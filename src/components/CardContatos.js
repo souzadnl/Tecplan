@@ -7,7 +7,7 @@ function CardContatos() {
     return(
         <section>
             
-            <div id="fundosection" class="max-lg:my-28 my-36">
+            <div id="fundosection" class="my-24">
             <div>
             <div class="d-flex m-auto pb-4  w-10/12 content-center">
                 <div class="flex w-72 space-x-8 ">
@@ -38,7 +38,7 @@ function CardContatos() {
                         <SelectStyled name="select" text="Opções"></SelectStyled>
                     </div>
                     
-                    <TextareaStyled text="Mensagem" name="textarea" placeholder="Escreva sua mensagem aqui"></TextareaStyled>
+                    <TextareaStyled text="Mensagem" name="textarea" placeholder="Escreva sua mensagem aqui" maxlength="4"></TextareaStyled>
                     <EnviarStyled></EnviarStyled>
                 </form>
                 

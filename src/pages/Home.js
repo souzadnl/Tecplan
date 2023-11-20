@@ -1,9 +1,15 @@
+import CardProduto from "../components/CardProduto"
+import ContainerProdutos from "../components/ContainerProdutos"
 import ImagemTopoMenor from "../components/ImagemTopoMenor"
 
 function Home(){
     return (
-        <ImagemTopoMenor image="./images/ImagemTopoHome.webp"></ImagemTopoMenor>
-
+        <div>
+            <ImagemTopoMenor image="./images/ImagemTopoHome.webp"></ImagemTopoMenor>
+            <ContainerProdutos></ContainerProdutos>
+            
+        </div>
+        
     )
 }
 

@@ -8,6 +8,7 @@ import Quemsomos from "./pages/Quemsomos"
 import Carrinho from "./pages/Carrinho"
 import Footer from "./components/Footer"
 import { Modal } from "bootstrap"
+import ProductView from "./components/ProductView"
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
         <Route exact path="/carrinho" element={<Carrinho />}>
         </Route>
+
+        <Route exact path="/Produtos/:id" element={<ProductView/>}>
+        </Route>
+        
     </Routes>
 
     <Footer></Footer>
