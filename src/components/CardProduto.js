@@ -12,7 +12,7 @@ const CardProduto = ({item}) => {
         <img class="w-32 m-auto p-1" src={item.img}></img>
         </div>
         <div class="d-flex">
-        <span class="font-semibold m-auto text-xl">R$ {item.price}</span>
+        <span class="font-semibold m-auto text-md">{item.priceString}</span>
         <span class="m-auto text-gray-500 text-sm text-right">à vista</span>
         </div>
         <div class="d-flex justify-evenly mt-2 gap-3 p-2">
