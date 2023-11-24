@@ -29,7 +29,7 @@ function Produto(){
                             <p class="text-justify">{thisProduct.completesubtitle}</p>
 
                             <div class="d-flex justify-between mt-5">
-                                <h1 class="text-[50px] md:text-[80px]">{thisProduct.price}</h1>
+                                <h1 class="text-[50px] md:text-[80px]">{thisProduct.priceString}</h1>
                                 <h5 class="mt-auto">à vista</h5>
                             </div>
                         </div>
