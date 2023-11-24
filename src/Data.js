@@ -32,7 +32,25 @@ export const produtos = [
         title: "Pulverizadores",
         subtitle: "Case IH Axial-Flow 8250",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "250.000",
+        price: 250000,
+        priceString: "R$ 250.000,00"
+    },
+    {
+        id: "coffe_express_multi",
+        img: "./images/coffe_express_multi.webp",
+        title: "Coffee Express Multi",
+        subtitle: "Case IH Axial-Flow 8250",
+        completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
+        price: 250000,
+        priceString: "R$ 250.000,00"
+    },
+    {
+        id: "john_deere_s700_combine",
+        img: "./images/john_deere_s700_combine.webp",
+        title: "John Deere S700 Combines",
+        subtitle: "Case IH Axial-Flow 8250",
+        completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
+        price: 250000,
         priceString: "R$ 250.000,00"
     },
     {
@@ -41,7 +59,7 @@ export const produtos = [
         title: "Case IH Easy Riser 3200",
         subtitle: "Plantadeira Agrícola",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "95.000",
+        price: 95000,
         priceString: "R$ 95.000,00"
     },
     {
@@ -50,7 +68,7 @@ export const produtos = [
         title: "Trator Magnum AFS",
         subtitle: "O trator mais tecnológico da..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "289.000",
+        price: 289000,
         priceString: "R$ 289.000,00"
         
     },
@@ -64,15 +82,6 @@ export const produtos = [
         priceString: "R$ 185.000,00"
     },
     {
-        id: "plantadeira_case",
-        img: "./images/PlantadeiraCase.webp",
-        title: "Plantadeira Case IH 2140",
-        subtitle: "Alta Precisão na Semeadura",
-        completesubtitle: "A Plantadeira Case IH 2140 oferece alta precisão na semeadura. Com sistemas avançados, garante uma distribuição uniforme de sementes, otimizando a produtividade.",
-        price: 135000,
-        priceString: "R$ 135.000,00"
-    },
-    {
         id: "colheitadeira_new_holland",
         img: "./images/ColheitadeiraNewHolland.webp",
         title: "Colheitadeira New Holland CR8.90",
@@ -83,10 +92,10 @@ export const produtos = [
     },
     {
         id: "colhedora_cana",
-        img: "./images/ColhedoraCana.webp",
-        title: "Colhedora de Cana-de-Açúcar JMCO 8000",
+        img: "./images/ColhedoraCanaa8810.webp",
+        title: "Colhedora de Cana-de-Açúcar A8810",
         subtitle: "Alta Performance na Colheita de Cana",
-        completesubtitle: "A Colhedora de Cana-de-Açúcar JMCO 8000 oferece alta performance na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
+        completesubtitle: "A Colhedora de Cana-de-Açúcar A8100 oferece alta performance na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
         price: 420000,
         priceString: "R$ 420.000,00"
     },
