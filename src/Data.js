@@ -137,12 +137,12 @@ export const produtos = [
     },
     {
         id: "caminhao_agricola",
-        img: "./images/CaminhaoAgricola.webp",
-        title: "Caminhão Agrícola Multiuso",
+        img: "./images/Tankermagnu.webp",
+        title: "Tanker Magnu 35000",
         subtitle: "Versatilidade no Transporte",
-        completesubtitle: "O Caminhão Agrícola Multiuso oferece versatilidade no transporte de cargas agrícolas. Com sua capacidade, é uma solução eficiente no campo.",
-        price: 145000,
-        priceString: "R$ 145.000,00"
+        completesubtitle: "O Tanker Magnu 35000 oferece versatilidade no transporte de cargas agrícolas. Com sua capacidade, é uma solução eficiente no campo.",
+        price: 4000,
+        priceString: "R$ 4.000,00"
     },
     {
         id: "trator_valtra_2",
@@ -156,18 +156,18 @@ export const produtos = [
     {
         id: "carreta_agricola_2",
         img: "./images/CarretaAgricola2.webp",
-        title: "Carreta Agrícola Basculante",
+        title: "Carreta Agrícola Basculante CAMH-7500",
         subtitle: "Transporte de Cargas Eficiente",
-        completesubtitle: "A Carreta Agrícola Basculante oferece um transporte eficiente de cargas agrícolas. Com sua resistência, é ideal para diferentes necessidades.",
-        price: 68000,
-        priceString: "R$ 68.000,00"
+        completesubtitle: "A Carreta Agrícola Basculante CAMH-7500 oferece um transporte eficiente de cargas agrícolas. Com sua resistência, é ideal para diferentes necessidades.",
+        price: 3800,
+        priceString: "R$ 3.800,00"
     },
     {
         id: "trator_massey_ferguson_2",
         img: "./images/TratorMasseyFerguson2.webp",
         title: "Trator Massey Ferguson 7715",
         subtitle: "Potência e Confiabilidade",
-        completesubtitle: "O Trator Massey Ferguson 7715 oferece potência e confiabilidade. Com sua tecnologia avançada, é essencial para diversas atividades agrícolas.",
+        completesubtitle: "O Trator Massey Ferguson 7700 oferece potência e confiabilidade. Com sua tecnologia avançada, é essencial para diversas atividades agrícolas.",
         price: 260000,
         priceString: "R$ 260.000,00"
     },
@@ -182,10 +182,10 @@ export const produtos = [
     },
     {
         id: "semeadora_agco",
-        img: "./images/SemeadoraAGCO.webp",
-        title: "Semeadora AGCO Precision",
+        img: "./images/Momentum.webp",
+        title: "Semeadora Momentum",
         subtitle: "Precisão na Semeadura",
-        completesubtitle: "A Semeadora AGCO Precision oferece alta precisão na semeadura. Com seu sistema avançado, garante um plantio eficaz em diferentes condições.",
+        completesubtitle: "A Semeadora Momentum oferece alta precisão na semeadura. Com seu sistema avançado, garante um plantio eficaz em diferentes condições.",
         price: 118000,
         priceString: "R$ 118.000,00"
     },
@@ -200,12 +200,12 @@ export const produtos = [
     },
     {
         id: "trator_new_holland_2",
-        img: "./images/TratorNewHolland2.webp",
-        title: "Trator New Holland T8",
+        img: "./images/distribuidoradubo.jpg",
+        title: "Distribuidor de Adubo Organico",
         subtitle: "Tecnologia e Versatilidade",
-        completesubtitle: "O Trator New Holland T8 oferece tecnologia e versatilidade. Com seu design robusto, é essencial para diversas atividades agrícolas.",
-        price: 315000,
-        priceString: "R$ 315.000,00"
+        completesubtitle: "O Distribuidor de Adubo Organico possui versatilidade. Com seu design prático, é essencial para diversas atividades agrícolas.",
+        price: 5000,
+        priceString: "R$ 5.000,00"
     },
     {
         id: "colhedora_cana_2",
@@ -215,32 +215,5 @@ export const produtos = [
         completesubtitle: "A Colhedora de Cana-de-Açúcar VenceTudo oferece eficiência na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
         price: 580000,
         priceString: "R$ 580.000,00"
-    },
-    {
-        id: "esparramador_fertilizante",
-        img: "./images/EsparramadorFertilizante.webp",
-        title: "Esparramador de Fertilizante",
-        subtitle: "Distribuição Precisa de Fertilizantes",
-        completesubtitle: "O Esparramador de Fertilizante oferece uma distribuição precisa de fertilizantes. Com sua eficiência, melhora a nutrição das plantas.",
-        price: 45000,
-        priceString: "R$ 45.000,00"
-    },
-    {
-        id: "trator_valtra_3",
-        img: "./images/TratorValtra3.webp",
-        title: "Trator Valtra A114",
-        subtitle: "Versatilidade e Desempenho",
-        completesubtitle: "O Trator Valtra A114 oferece versatilidade e desempenho. Com sua tecnologia avançada, é uma ferramenta fundamental no campo.",
-        price: 175000,
-        priceString: "R$ 175.000,00"
-    },
-    {
-        id: "colheitadeira_case_3",
-        img: "./images/ColheitadeiraCase3.webp",
-        title: "Colheitadeira Case IH Axial-Flow 8250",
-        subtitle: "Alta Performance na Colheita",
-        completesubtitle: "A Colheitadeira Case IH Axial-Flow 8250 oferece alta performance na colheita. Com tecnologia avançada, maximiza a eficiência e a qualidade da colheita.",
-        price: 880000,
-        priceString: "R$ 880.000,00"
     }
 ];
