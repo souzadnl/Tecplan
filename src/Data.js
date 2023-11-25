@@ -5,7 +5,8 @@ export const produtos = [
         title: "Trator Farmall 80 2012",
         subtitle: "O melhor para o transporte..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "250.000"
+        price: 250000,
+        priceString: "R$ 250.000,00"
     },
     {
         id: "plantadeiras",
@@ -13,7 +14,8 @@ export const produtos = [
         title: "Plantadeiras",
         subtitle: "O trator mais tecnológico..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "250.000"
+        price: 250000,
+        priceString: "R$ 250.000,00"
     },
     {
         id: "colheitadeiras",
@@ -21,7 +23,8 @@ export const produtos = [
         title: "Case IH Axial-Flow 8250",
         subtitle: "Colheitadeira de Grãos",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "1.350.000"
+        price: 1350000,
+        priceString: "R$ 1.350.000,00"
     },
     {
         id: "pulverizadores",
@@ -29,7 +32,26 @@ export const produtos = [
         title: "Pulverizadores",
         subtitle: "Case IH Axial-Flow 8250",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "250.000"
+        price: 250000,
+        priceString: "R$ 250.000,00"
+    },
+    {
+        id: "coffe_express_multi",
+        img: "./images/coffe_express_multi.webp",
+        title: "Coffee Express Multi",
+        subtitle: "Case IH Axial-Flow 8250",
+        completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
+        price: 250000,
+        priceString: "R$ 250.000,00"
+    },
+    {
+        id: "john_deere_s700_combine",
+        img: "./images/john_deere_s700_combine.webp",
+        title: "John Deere S700 Combines",
+        subtitle: "Case IH Axial-Flow 8250",
+        completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
+        price: 250000,
+        priceString: "R$ 250.000,00"
     },
     {
         id: "plantadeiras",
@@ -37,7 +59,8 @@ export const produtos = [
         title: "Case IH Easy Riser 3200",
         subtitle: "Plantadeira Agrícola",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "95.000"
+        price: 95000,
+        priceString: "R$ 95.000,00"
     },
     {
         id: "trator_magnum",
@@ -45,23 +68,179 @@ export const produtos = [
         title: "Trator Magnum AFS",
         subtitle: "O trator mais tecnológico da..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "289.000"
+        price: 289000,
+        priceString: "R$ 289.000,00"
         
     },
     {
-        id: "pulverizadores",
-        img: "./images/Pulverizador.webp",
-        title: "Pulverizadores",
-        subtitle: "Case IH Axial-Flow 8250",
-        completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "250.000"
+        id: "trator_john_deere",
+        img: "./images/TratorJohnDeere.webp",
+        title: "Trator John Deere 6155M",
+        subtitle: "Potência e Eficiência",
+        completesubtitle: "O Trator John Deere 6155M oferece potência e eficiência para diversas atividades agrícolas. Com seu design robusto e tecnologia avançada, é ideal para aumentar a produtividade.",
+        price: 185000,
+        priceString: "R$ 185.000,00"
     },
     {
-        id: "colheitadeiras",
-        img: "./images/Colheitadeira.webp",
-        title: "Colheitadeiras",
-        subtitle: "Case IH Easy Riser 3200",
-        completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
-        price: "250.000"
+        id: "colheitadeira_new_holland",
+        img: "./images/ColheitadeiraNewHolland.webp",
+        title: "Colheitadeira New Holland CR8.90",
+        subtitle: "Eficiência na Colheita",
+        completesubtitle: "A Colheitadeira New Holland CR8.90 oferece eficiência excepcional na colheita. Com tecnologia avançada, maximiza a produtividade e a qualidade da colheita.",
+        price: 710000,
+        priceString: "R$ 710.000,00"
+    },
+    {
+        id: "colhedora_cana",
+        img: "./images/ColhedoraCanaa8810.webp",
+        title: "Colhedora de Cana-de-Açúcar A8810",
+        subtitle: "Alta Performance na Colheita de Cana",
+        completesubtitle: "A Colhedora de Cana-de-Açúcar A8100 oferece alta performance na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
+        price: 420000,
+        priceString: "R$ 420.000,00"
+    },
+    {
+        id: "arado_agricola",
+        img: "./images/AradoAgricola.webp",
+        title: "Arado Agrícola MasterPlow",
+        subtitle: "Preparação Eficiente do Solo",
+        completesubtitle: "O Arado Agrícola MasterPlow oferece uma preparação eficiente do solo. Com sua tecnologia, proporciona um solo pronto para o plantio.",
+        price: 55000,
+        priceString: "R$ 55.000,00"
+    },
+    {
+        id: "trator_case",
+        img: "./images/TratorCase.webp",
+        title: "Trator Case IH Puma 195",
+        subtitle: "Desempenho e Confiabilidade",
+        completesubtitle: "O Trator Case IH Puma 195 oferece desempenho e confiabilidade no campo. Com sua potência, é ideal para diversas operações agrícolas.",
+        price: 275000,
+        priceString: "R$ 275.000,00"
+    },
+    {
+        id: "colheitadeira_valtra",
+        img: "./images/ColheitadeiraValtra.webp",
+        title: "Colheitadeira Valtra BC 8800",
+        subtitle: "Alto Rendimento na Colheita",
+        completesubtitle: "A Colheitadeira Valtra BC 8800 oferece alto rendimento na colheita. Com tecnologia avançada, maximiza a eficiência e qualidade da colheita.",
+        price: 720000,
+        priceString: "R$ 720.000,00"
+    },
+    {
+        id: "semeadora_john_deere",
+        img: "./images/SemeadoraJohnDeere.webp",
+        title: "Semeadora John Deere MaxSeeder",
+        subtitle: "Precisão na Semeadura",
+        completesubtitle: "A Semeadora John Deere MaxSeeder oferece precisão na semeadura. Com sistemas avançados, garante um plantio eficiente, maximizando a produção.",
+        price: 98000,
+        priceString: "R$ 98.000,00"
+    },
+    {
+        id: "caminhao_agricola",
+        img: "./images/CaminhaoAgricola.webp",
+        title: "Caminhão Agrícola Multiuso",
+        subtitle: "Versatilidade no Transporte",
+        completesubtitle: "O Caminhão Agrícola Multiuso oferece versatilidade no transporte de cargas agrícolas. Com sua capacidade, é uma solução eficiente no campo.",
+        price: 145000,
+        priceString: "R$ 145.000,00"
+    },
+    {
+        id: "trator_valtra_2",
+        img: "./images/TratorValtra2.webp",
+        title: "Trator Valtra A104",
+        subtitle: "Força e Desempenho",
+        completesubtitle: "O Trator Valtra A104 oferece força e desempenho para diversas operações agrícolas. Com sua versatilidade, é essencial no campo.",
+        price: 155000,
+        priceString: "R$ 155.000,00"
+    },
+    {
+        id: "carreta_agricola_2",
+        img: "./images/CarretaAgricola2.webp",
+        title: "Carreta Agrícola Basculante",
+        subtitle: "Transporte de Cargas Eficiente",
+        completesubtitle: "A Carreta Agrícola Basculante oferece um transporte eficiente de cargas agrícolas. Com sua resistência, é ideal para diferentes necessidades.",
+        price: 68000,
+        priceString: "R$ 68.000,00"
+    },
+    {
+        id: "trator_massey_ferguson_2",
+        img: "./images/TratorMasseyFerguson2.webp",
+        title: "Trator Massey Ferguson 7715",
+        subtitle: "Potência e Confiabilidade",
+        completesubtitle: "O Trator Massey Ferguson 7715 oferece potência e confiabilidade. Com sua tecnologia avançada, é essencial para diversas atividades agrícolas.",
+        price: 260000,
+        priceString: "R$ 260.000,00"
+    },
+    {
+        id: "colhedora_soja",
+        img: "./images/ColhedoraSoja.webp",
+        title: "Colhedora de Soja TechHarvest",
+        subtitle: "Eficiência na Colheita de Soja",
+        completesubtitle: "A Colhedora de Soja TechHarvest oferece eficiência na colheita. Com sua tecnologia, maximiza a produtividade e qualidade da colheita de soja.",
+        price: 690000,
+        priceString: "R$ 690.000,00"
+    },
+    {
+        id: "semeadora_agco",
+        img: "./images/SemeadoraAGCO.webp",
+        title: "Semeadora AGCO Precision",
+        subtitle: "Precisão na Semeadura",
+        completesubtitle: "A Semeadora AGCO Precision oferece alta precisão na semeadura. Com seu sistema avançado, garante um plantio eficaz em diferentes condições.",
+        price: 118000,
+        priceString: "R$ 118.000,00"
+    },
+    {
+        id: "colheitadeira_case_2",
+        img: "./images/ColheitadeiraCase2.webp",
+        title: "Colheitadeira Case IH 7150",
+        subtitle: "Desempenho Superior na Colheita",
+        completesubtitle: "A Colheitadeira Case IH 7150 oferece desempenho superior na colheita. Com tecnologia avançada, maximiza a eficiência e a qualidade da colheita.",
+        price: 690000,
+        priceString: "R$ 690.000,00"
+    },
+    {
+        id: "trator_new_holland_2",
+        img: "./images/TratorNewHolland2.webp",
+        title: "Trator New Holland T8",
+        subtitle: "Tecnologia e Versatilidade",
+        completesubtitle: "O Trator New Holland T8 oferece tecnologia e versatilidade. Com seu design robusto, é essencial para diversas atividades agrícolas.",
+        price: 315000,
+        priceString: "R$ 315.000,00"
+    },
+    {
+        id: "colhedora_cana_2",
+        img: "./images/ColhedoraCana2.webp",
+        title: "Colhedora de Cana-de-Açúcar VenceTudo",
+        subtitle: "Eficiência na Colheita",
+        completesubtitle: "A Colhedora de Cana-de-Açúcar VenceTudo oferece eficiência na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
+        price: 580000,
+        priceString: "R$ 580.000,00"
+    },
+    {
+        id: "esparramador_fertilizante",
+        img: "./images/EsparramadorFertilizante.webp",
+        title: "Esparramador de Fertilizante",
+        subtitle: "Distribuição Precisa de Fertilizantes",
+        completesubtitle: "O Esparramador de Fertilizante oferece uma distribuição precisa de fertilizantes. Com sua eficiência, melhora a nutrição das plantas.",
+        price: 45000,
+        priceString: "R$ 45.000,00"
+    },
+    {
+        id: "trator_valtra_3",
+        img: "./images/TratorValtra3.webp",
+        title: "Trator Valtra A114",
+        subtitle: "Versatilidade e Desempenho",
+        completesubtitle: "O Trator Valtra A114 oferece versatilidade e desempenho. Com sua tecnologia avançada, é uma ferramenta fundamental no campo.",
+        price: 175000,
+        priceString: "R$ 175.000,00"
+    },
+    {
+        id: "colheitadeira_case_3",
+        img: "./images/ColheitadeiraCase3.webp",
+        title: "Colheitadeira Case IH Axial-Flow 8250",
+        subtitle: "Alta Performance na Colheita",
+        completesubtitle: "A Colheitadeira Case IH Axial-Flow 8250 oferece alta performance na colheita. Com tecnologia avançada, maximiza a eficiência e a qualidade da colheita.",
+        price: 880000,
+        priceString: "R$ 880.000,00"
     }
-]
+];
