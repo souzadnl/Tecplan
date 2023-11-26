@@ -5,7 +5,7 @@ const CardProduto = ({item}) => {
 
 
   return (
-    <Link to={`/produto/${item.id}`} class="text-decoration-none text-black m-auto rounded-xl border-1 border-gray-300 bg-white py-3 px-2 max-sm:w-[47%] md:w-[300px] h-72 lg:w-1/5 text-center mb-4 hover:border-[#29CF00] hover:cursor-pointer transition-colors ">
+    <Link to={`/produtos/${item.id}`} class="text-decoration-none text-black m-auto rounded-xl border-1 border-gray-300 bg-white py-3 px-2 max-sm:w-[47%] md:w-[300px] h-72 lg:w-1/5 text-center mb-4 hover:border-[#29CF00] hover:cursor-pointer transition-colors ">
         <h1 class="text-sm">{item.title}</h1>
         <h3 class="text-[10px] text-gray-500">{item.subtitle}</h3>
         <div class="h-28">

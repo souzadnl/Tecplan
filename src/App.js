@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/carrinho" element={<Carrinho />}>
         </Route>
 
-        <Route exact path="/produto/:id" element={<Produto />}>
+        <Route exact path="/produtos/:id" element={<Produto />}>
         </Route>
   
     </Routes>

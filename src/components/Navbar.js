@@ -136,7 +136,7 @@ function Navbar() {
                 <Link to="/">
                     <picture>
                     <source media="(min-width: 1025px)"  width="109.87px" srcset="/images/logo.jpg"></source>
-                    <source media="(max-width: 1024px)"  width="36px" srcset="/images/logoMobile.jpg"></source>
+                    <source media="(max-width: 1025px)"  width="36px" srcset="/images/logoMobile.jpg"></source>
                     <img src="" alt="Descrição da Imagem"></img>
                     </picture>
                 </Link>

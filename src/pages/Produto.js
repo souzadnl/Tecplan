@@ -7,7 +7,6 @@ function Produto(){
 
     const {id} = useParams()
     const thisProduct = produtos.find(item => item.id === id)
-    console.log("uva",id)
  
     return(
         <section>
