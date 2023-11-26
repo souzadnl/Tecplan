@@ -93,7 +93,7 @@ export const produtos = [
     {
         id: "colhedora_cana",
         img: "./images/ColhedoraCanaa8810.webp",
-        title: "Colhedora de Cana-de-Açúcar A8810",
+        title: "Colhedora Cana A8810",
         subtitle: "Alta Performance na Colheita de Cana",
         completesubtitle: "A Colhedora de Cana-de-Açúcar A8100 oferece alta performance na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
         price: 420000,
@@ -156,7 +156,7 @@ export const produtos = [
     {
         id: "carreta_agricola_2",
         img: "./images/CarretaAgricola2.webp",
-        title: "Carreta Agrícola Basculante CAMH-7500",
+        title: "Carreta Agrícola CAMH-7500",
         subtitle: "Transporte de Cargas Eficiente",
         completesubtitle: "A Carreta Agrícola Basculante CAMH-7500 oferece um transporte eficiente de cargas agrícolas. Com sua resistência, é ideal para diferentes necessidades.",
         price: 3800,
@@ -192,7 +192,7 @@ export const produtos = [
     {
         id: "colheitadeira_case_2",
         img: "./images/ColheitadeiraCase2.webp",
-        title: "Colheitadeira Case IH 7150",
+        title: "Colheitadeira Case7150",
         subtitle: "Desempenho Superior na Colheita",
         completesubtitle: "A Colheitadeira Case IH 7150 oferece desempenho superior na colheita. Com tecnologia avançada, maximiza a eficiência e a qualidade da colheita.",
         price: 690000,

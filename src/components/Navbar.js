@@ -127,7 +127,12 @@ const StyledDivIcons = styled.div`
         margin-top: -30px;
         margin-left: 20px;
     }
+    
 `
+
+const responsive = {
+    width: '100px'
+}
 
 function Navbar() {
     return (
@@ -181,10 +186,10 @@ function Navbar() {
 
             </StyledDivIcons>
 
-            <div class="container-fluid">
-                <div class="offcanvas offcanvas-end ml-5 p-2" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="container-fluid bg-danger">
+                <div class="offcanvas offcanvas-end ml-5 p-2"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                    <img src="./images/logo.svg" width="109.87px" alt="Logo tecplan"></img>
+                    <img src="./images/logo.jpg" width="109.87px" alt="Logo tecplan"></img>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 

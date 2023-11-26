@@ -10,6 +10,7 @@ import Footer from "./components/Footer"
 import { Modal } from "bootstrap"
 import Produto from "./pages/Produto"
 import ScrollToTopOnPageChange from "./pages/ScrollToTopOnPageChange"
+import Produtos_completo from "./pages/Produtos_completo"
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
         </Route>
 
         <Route exact path="/produtos/:id" element={<Produto />}>
+        </Route>
+
+        <Route exact path="/produtos_completo" element={<Produtos_completo />}>
         </Route>
   
     </Routes>
