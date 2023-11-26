@@ -12,8 +12,6 @@ function ImagemTopoMenor(props) {
     h1 {
         font-size: calc(2vw + 1.9vh);
     }
-
-    @media (min-width:)
     `
 
     return(

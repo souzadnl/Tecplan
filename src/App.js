@@ -9,14 +9,16 @@ import Carrinho from "./pages/Carrinho"
 import Footer from "./components/Footer"
 import { Modal } from "bootstrap"
 import Produto from "./pages/Produto"
+import ScrollToTopOnPageChange from "./pages/ScrollToTopOnPageChange"
 
 function App() {
   return (
     <Router>
     <Navbar></Navbar>
 
+    <ScrollToTopOnPageChange></ScrollToTopOnPageChange>
     <Routes>
-        <Route exact path="/" element={<Home />}>
+      <Route exact path="/" element={<Home />}>
         </Route>
 
         <Route exact path="/produtos" element={<Produtos />}>
@@ -33,8 +35,10 @@ function App() {
 
         <Route exact path="/produto/:id" element={<Produto />}>
         </Route>
-        
+  
     </Routes>
+  
+    
 
     <Footer></Footer>
     </Router>
