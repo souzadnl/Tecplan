@@ -1,7 +1,7 @@
 export const produtos = [
     {
         id: "trator_farmall",
-        img: "./images/Trator.webp",
+        img: "./images/Trator.jpg",
         title: "Trator Farmall 80 2012",
         subtitle: "O melhor para o transporte..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -10,7 +10,7 @@ export const produtos = [
     },
     {
         id: "plantadeiras",
-        img: "./images/Plantadeira.webp",
+        img: "./images/Plantadeira.jpg",
         title: "Plantadeiras",
         subtitle: "O trator mais tecnológico..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -19,7 +19,7 @@ export const produtos = [
     },
     {
         id: "colheitadeiras",
-        img: "./images/Colheitadeira.webp",
+        img: "./images/Colheitadeira.jpg",
         title: "Case IH Axial-Flow 8250",
         subtitle: "Colheitadeira de Grãos",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -28,7 +28,7 @@ export const produtos = [
     },
     {
         id: "pulverizadores",
-        img: "./images/Pulverizador.webp",
+        img: "./images/Pulverizador.jpg",
         title: "Pulverizadores",
         subtitle: "Case IH Axial-Flow 8250",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -37,7 +37,7 @@ export const produtos = [
     },
     {
         id: "coffe_express_multi",
-        img: "./images/coffe_express_multi.webp",
+        img: "./images/coffe_express_multi.jpg",
         title: "Coffee Express Multi",
         subtitle: "Case IH Axial-Flow 8250",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -46,7 +46,7 @@ export const produtos = [
     },
     {
         id: "john_deere_s700_combine",
-        img: "./images/john_deere_s700_combine.webp",
+        img: "./images/john_deere_s700_combine.jpg",
         title: "John Deere S700 Combines",
         subtitle: "Case IH Axial-Flow 8250",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -55,7 +55,7 @@ export const produtos = [
     },
     {
         id: "plantadeiras",
-        img: "./images/Plantadeira.webp",
+        img: "./images/Plantadeira.jpg",
         title: "Case IH Easy Riser 3200",
         subtitle: "Plantadeira Agrícola",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -64,7 +64,7 @@ export const produtos = [
     },
     {
         id: "trator_magnum",
-        img: "./images/Trator2.webp",
+        img: "./images/Trator2.jpg",
         title: "Trator Magnum AFS",
         subtitle: "O trator mais tecnológico da..",
         completesubtitle: "O Trator Farmall 80, ano de fabricação 2012, representa o ápice da excelência em maquinário agrícola. Desenvolvido pela renomada marca, este trator é uma fusão perfeita de potência, eficiência e confiabilidade, projetado para atender às demandas rigorosas do campo moderno.",
@@ -74,7 +74,7 @@ export const produtos = [
     },
     {
         id: "trator_john_deere",
-        img: "./images/TratorJohnDeere.webp",
+        img: "./images/TratorJohnDeere.jpg",
         title: "Trator John Deere 6155M",
         subtitle: "Potência e Eficiência",
         completesubtitle: "O Trator John Deere 6155M oferece potência e eficiência para diversas atividades agrícolas. Com seu design robusto e tecnologia avançada, é ideal para aumentar a produtividade.",
@@ -83,7 +83,7 @@ export const produtos = [
     },
     {
         id: "colheitadeira_new_holland",
-        img: "./images/ColheitadeiraNewHolland.webp",
+        img: "./images/ColheitadeiraNewHolland.jpg",
         title: "Colheitadeira New Holland CR8.90",
         subtitle: "Eficiência na Colheita",
         completesubtitle: "A Colheitadeira New Holland CR8.90 oferece eficiência excepcional na colheita. Com tecnologia avançada, maximiza a produtividade e a qualidade da colheita.",
@@ -92,7 +92,7 @@ export const produtos = [
     },
     {
         id: "colhedora_cana",
-        img: "./images/ColhedoraCanaa8810.webp",
+        img: "./images/ColhedoraCanaa8810.jpg",
         title: "Colhedora Cana A8810",
         subtitle: "Alta Performance na Colheita de Cana",
         completesubtitle: "A Colhedora de Cana-de-Açúcar A8100 oferece alta performance na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
@@ -101,7 +101,7 @@ export const produtos = [
     },
     {
         id: "arado_agricola",
-        img: "./images/AradoAgricola.webp",
+        img: "./images/AradoAgricola.jpg",
         title: "Arado Agrícola MasterPlow",
         subtitle: "Preparação Eficiente do Solo",
         completesubtitle: "O Arado Agrícola MasterPlow oferece uma preparação eficiente do solo. Com sua tecnologia, proporciona um solo pronto para o plantio.",
@@ -110,7 +110,7 @@ export const produtos = [
     },
     {
         id: "trator_case",
-        img: "./images/TratorCase.webp",
+        img: "./images/TratorCase.jpg",
         title: "Trator Case IH Puma 195",
         subtitle: "Desempenho e Confiabilidade",
         completesubtitle: "O Trator Case IH Puma 195 oferece desempenho e confiabilidade no campo. Com sua potência, é ideal para diversas operações agrícolas.",
@@ -119,7 +119,7 @@ export const produtos = [
     },
     {
         id: "colheitadeira_valtra",
-        img: "./images/ColheitadeiraValtra.webp",
+        img: "./images/ColheitadeiraValtra.jpg",
         title: "Colheitadeira Valtra BC 8800",
         subtitle: "Alto Rendimento na Colheita",
         completesubtitle: "A Colheitadeira Valtra BC 8800 oferece alto rendimento na colheita. Com tecnologia avançada, maximiza a eficiência e qualidade da colheita.",
@@ -128,7 +128,7 @@ export const produtos = [
     },
     {
         id: "semeadora_john_deere",
-        img: "./images/SemeadoraJohnDeere.webp",
+        img: "./images/SemeadoraJohnDeere.jpg",
         title: "Semeadora John Deere MaxSeeder",
         subtitle: "Precisão na Semeadura",
         completesubtitle: "A Semeadora John Deere MaxSeeder oferece precisão na semeadura. Com sistemas avançados, garante um plantio eficiente, maximizando a produção.",
@@ -137,7 +137,7 @@ export const produtos = [
     },
     {
         id: "caminhao_agricola",
-        img: "./images/Tankermagnu.webp",
+        img: "./images/Tankermagnu.jpg",
         title: "Tanker Magnu 35000",
         subtitle: "Versatilidade no Transporte",
         completesubtitle: "O Tanker Magnu 35000 oferece versatilidade no transporte de cargas agrícolas. Com sua capacidade, é uma solução eficiente no campo.",
@@ -146,7 +146,7 @@ export const produtos = [
     },
     {
         id: "trator_valtra_2",
-        img: "./images/TratorValtra2.webp",
+        img: "./images/TratorValtra2.jpg",
         title: "Trator Valtra A104",
         subtitle: "Força e Desempenho",
         completesubtitle: "O Trator Valtra A104 oferece força e desempenho para diversas operações agrícolas. Com sua versatilidade, é essencial no campo.",
@@ -155,7 +155,7 @@ export const produtos = [
     },
     {
         id: "carreta_agricola_2",
-        img: "./images/CarretaAgricola2.webp",
+        img: "./images/CarretaAgricola2.jpg",
         title: "Carreta Agrícola CAMH-7500",
         subtitle: "Transporte de Cargas Eficiente",
         completesubtitle: "A Carreta Agrícola Basculante CAMH-7500 oferece um transporte eficiente de cargas agrícolas. Com sua resistência, é ideal para diferentes necessidades.",
@@ -164,7 +164,7 @@ export const produtos = [
     },
     {
         id: "trator_massey_ferguson_2",
-        img: "./images/TratorMasseyFerguson2.webp",
+        img: "./images/TratorMasseyFerguson2.jpg",
         title: "Trator Massey Ferguson 7715",
         subtitle: "Potência e Confiabilidade",
         completesubtitle: "O Trator Massey Ferguson 7700 oferece potência e confiabilidade. Com sua tecnologia avançada, é essencial para diversas atividades agrícolas.",
@@ -173,7 +173,7 @@ export const produtos = [
     },
     {
         id: "colhedora_soja",
-        img: "./images/ColhedoraSoja.webp",
+        img: "./images/ColhedoraSoja.jpg",
         title: "Colhedora de Soja TechHarvest",
         subtitle: "Eficiência na Colheita de Soja",
         completesubtitle: "A Colhedora de Soja TechHarvest oferece eficiência na colheita. Com sua tecnologia, maximiza a produtividade e qualidade da colheita de soja.",
@@ -182,7 +182,7 @@ export const produtos = [
     },
     {
         id: "semeadora_agco",
-        img: "./images/Momentum.webp",
+        img: "./images/Momentum.jpg",
         title: "Semeadora Momentum",
         subtitle: "Precisão na Semeadura",
         completesubtitle: "A Semeadora Momentum oferece alta precisão na semeadura. Com seu sistema avançado, garante um plantio eficaz em diferentes condições.",
@@ -191,7 +191,7 @@ export const produtos = [
     },
     {
         id: "colheitadeira_case_2",
-        img: "./images/ColheitadeiraCase2.webp",
+        img: "./images/ColheitadeiraCase2.jpg",
         title: "Colheitadeira Case7150",
         subtitle: "Desempenho Superior na Colheita",
         completesubtitle: "A Colheitadeira Case IH 7150 oferece desempenho superior na colheita. Com tecnologia avançada, maximiza a eficiência e a qualidade da colheita.",
@@ -209,7 +209,7 @@ export const produtos = [
     },
     {
         id: "colhedora_cana_2",
-        img: "./images/ColhedoraCana2.webp",
+        img: "./images/ColhedoraCana2.jpg",
         title: "Colhedora de Cana VenceTudo",
         subtitle: "Eficiência na Colheita",
         completesubtitle: "A Colhedora de Cana-de-Açúcar VenceTudo oferece eficiência na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",

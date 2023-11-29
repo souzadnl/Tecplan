@@ -5,17 +5,20 @@ const CardProduto = ({item}) => {
 
 
   return (
-    <Link to={`/produtos/${item.id}`} class="text-decoration-none text-black m-auto rounded-xl border-1 border-gray-300 bg-white py-3 px-2 max-sm:w-[47%] md:w-[300px] h-72 lg:w-1/5 text-center mb-4 hover:border-[#29CF00] hover:cursor-pointer transition-colors ">
-        <h1 class="text-sm">{item.title}</h1>
-        <h3 class="text-[10px] text-gray-500">{item.subtitle}</h3>
-        <div class="h-28">
-        <img class="w-32 m-auto p-1" src={item.img}></img>
+    <Link to={`/produtos/${item.id}`} class="text-decoration-none text-black m-auto rounded-xl border-1 border-gray-300 bg-white py-3 px-2 max-sm:w-[47%] md:w-[300px] h-72 max-sm:h-64 lg:w-1/5 text-center mb-4 hover:border-[#29CF00] hover:cursor-pointer transition-colors ">
+        <div class="m-0 h-12">
+        <h1 class="text-[18px] max-sm:text-[12px]">{item.title}</h1>
+        <h3 class="text-[12px] max-sm:text-[10px] text-gray-500">{item.subtitle}</h3>
+        </div>
+        
+        <div class="max-sm:h-24 h-28">
+        <img class="w-32 m-auto max-sm:w-28 m-0" src={item.img}></img>
         </div>
         <div class="d-flex">
-        <span class="font-semibold m-auto text-md">{item.priceString}</span>
-        <span class="m-auto text-gray-500 text-sm text-right">à vista</span>
+        <span class="font-semibold m-auto max-sm:text-[14px]">{item.priceString}</span>
+        <span class="m-auto text-gray-500 max-sm:text-[12px] text-right">à vista</span>
         </div>
-        <div class="d-flex justify-evenly mt-2 gap-3 p-2">
+        <div class="d-flex justify-evenly mt-2 p-2 max-sm:gap-2 sm:gap-3">
 
           <button class="rounded-2xl border-2 border-gray text-gray-400 hover:bg-[#54B93B] hover:text-white hover:border-[#54B93B] px-3 py-2 w-2/4">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus m-auto" viewBox="0 0 16 16">
