@@ -201,7 +201,7 @@ export const produtos = [
     {
         id: "trator_new_holland_2",
         img: "./images/distribuidoradubo.jpg",
-        title: "Distribuidor de Adubo Organico",
+        title: "Distribuidor de Adubo",
         subtitle: "Tecnologia e Versatilidade",
         completesubtitle: "O Distribuidor de Adubo Organico possui versatilidade. Com seu design prático, é essencial para diversas atividades agrícolas.",
         price: 5000,
