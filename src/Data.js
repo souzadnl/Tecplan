@@ -210,7 +210,7 @@ export const produtos = [
     {
         id: "colhedora_cana_2",
         img: "./images/ColhedoraCana2.webp",
-        title: "Colhedora de Cana-de-Açúcar VenceTudo",
+        title: "Colhedora de Cana VenceTudo",
         subtitle: "Eficiência na Colheita",
         completesubtitle: "A Colhedora de Cana-de-Açúcar VenceTudo oferece eficiência na colheita. Com tecnologia avançada, maximiza a produtividade nas plantações.",
         price: 580000,
