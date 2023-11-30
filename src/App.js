@@ -13,6 +13,9 @@ import ScrollToTopOnPageChange from "./pages/ScrollToTopOnPageChange"
 import Produtos_completo from "./pages/Produtos_completo"
 
 function App() {
+
+  const images = ['./images/AradoAgricola.jpg']
+
   return (
     <Router>
     <Navbar></Navbar>
