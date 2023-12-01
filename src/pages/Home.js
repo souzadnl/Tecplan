@@ -8,7 +8,7 @@ function Home(){
         <div>
             <ImagemTopoMenor image="./images/ImagemTopoHome.webp" text="ENCONTRE AQUI A MELHOR SOLUÇÃO PARA " textColored="PLANTAR"></ImagemTopoMenor>
             <ContainerProdutos></ContainerProdutos>
-            <CardImage image="./images/Cardimage.webp"></CardImage>
+            <CardImage image="/images/Cardimage.webp"></CardImage>
         </div>
         
     )
