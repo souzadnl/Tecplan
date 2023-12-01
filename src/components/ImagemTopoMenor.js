@@ -7,7 +7,7 @@ function ImagemTopoMenor(props) {
     background-position: top;
     display: flex;
     height: calc(14vh + 10vw);
-    margin-top: 50px; 
+    margin-top: 70px; 
     align-items: center;
     padding: 3vw;
 
