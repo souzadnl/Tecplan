@@ -17,9 +17,7 @@ gap: 14px;
 @media (max-width: 1024px) {
     display: none;
 
-    .responsive {
-        width: 75%;
-    }
+
   }
 `
 
@@ -148,7 +146,7 @@ const DivResponsive = styled.div`
 
 function Navbar() {
     return (
-        <nav class="px-4 py-3 navbar fixed-top p-1 d-flex shadow-3xl border-b border-gray-300 bg-white">
+        <nav class="px-4 py-2 navbar fixed-top d-flex shadow-3xl border-b border-gray-300 bg-white">
 
 <ScrollToTopOnPageChange></ScrollToTopOnPageChange>
             <BarraNavegacao>

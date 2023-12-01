@@ -7,7 +7,7 @@ function ImagemTopoMenor(props) {
     background-position: top;
     display: flex;
     height: calc(14vh + 10vw);
-    margin-top: 70px; 
+    margin-top: 54px; 
     align-items: center;
     padding: 3vw;
 
@@ -16,13 +16,12 @@ function ImagemTopoMenor(props) {
     }
 
     @media (max-width: 600px) {
-        height: 250px;
-        background-position: 0;
+        height: 200px;
         background-repeat: no-repeat;
         position: auto;
         
         h1 {
-            text-shadow: 0px 5px 50px black;
+            text-shadow: 0px 5px 20px black;
             text-align: center;
             font-size: calc(5vw + 1.9vh);
         }

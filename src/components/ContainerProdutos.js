@@ -1,6 +1,4 @@
 import React from 'react'
-import { produtos } from '../Data'
-import CardProduto from './CardProduto'
 import { Link } from 'react-router-dom'
 import ConjuntoProdutos from './ConjuntoProdutos'
 

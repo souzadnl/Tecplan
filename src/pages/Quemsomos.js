@@ -7,13 +7,20 @@ const DivImage = styled.div`
     background-size: cover;
     background-position: top;
     height: calc(25vh + 20vw);
-    margin-top: 50px; 
+    margin-top: 54px; 
     padding: calc(2vh + 8vw);
+    display: flex;
+    align-items: center;
 
     h1 {
         font-size: calc(5vw + 1.5vh);
     }
     
+    @media (max-width: 600px) {
+        h1 {
+            font-size: calc(6vw + 1.5vh);
+        }
+    }
 `
 
 function Quemsomos(){
