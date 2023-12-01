@@ -1,6 +1,6 @@
 
 import { produtos } from "../Data"
-import CardProduto from "../components/CardProduto"
+import CardProduto from "./CardProduto"
 
 function ConjuntoProdutos(props) {
     return(
