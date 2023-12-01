@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import React from 'react';
 import styled from "styled-components";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import FecharMenu from "./FecharMenu";
 
 const DivLinks = styled.div`
 display: flex;
@@ -137,6 +138,7 @@ const responsive = {
 function Navbar() {
     return (
         <nav class="px-4 py-2 navbar fixed-top p-1 d-flex shadow-3xl border-b border-gray-300 bg-white">
+
             <BarraNavegacao class="container-fluid">
                 <Link to="/">
                 <picture>
@@ -186,6 +188,8 @@ function Navbar() {
 
             </StyledDivIcons>
 
+            <FecharMenu></FecharMenu>
+            
             <div class="container-fluid bg-danger">
                 <div class="offcanvas offcanvas-end ml-5 p-2"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
