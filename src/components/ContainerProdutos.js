@@ -5,8 +5,8 @@ import ConjuntoProdutos from './ConjuntoProdutos'
 const ContainerProdutos = () => {
   return <>
     <div class="container pt-[25px] mb-0 text-[#B2B2B2] pb-3 d-flex justify-between">
-          <h5 class="text-md">PRODUTOS</h5>    
-          <Link class="text-lg text-decoration-none text-[#29CF00] hover:text-[#29CF00]" to="produtos_completo">VER MAIS</Link>
+          <h5 class="text-sm max-sm:pl-3">PRODUTOS</h5>    
+          <Link class="text-md max-sm:pr-3 text-decoration-none text-[#29CF00] hover:text-[#29CF00]" to="produtos_completo">VER MAIS</Link>
     </div>
   <ConjuntoProdutos quantidade={8}></ConjuntoProdutos>
   </>

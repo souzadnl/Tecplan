@@ -38,7 +38,7 @@ function CardContatos() {
                             <SelectStyled name="select" text="Opções"></SelectStyled>
                         </div>
                         
-                        <TextareaStyled text="Mensagem" name="textarea" placeholder="Escreva sua mensagem aqui" maxlength="4"></TextareaStyled>
+                        <TextareaStyled text="Mensagem" name="textarea" placeholder="Escreva sua mensagem aqui"></TextareaStyled>
                         <EnviarStyled></EnviarStyled>
                     </form>
                     

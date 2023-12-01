@@ -19,11 +19,11 @@ function ImagemTopoMenor(props) {
         height: 200px;
         background-repeat: no-repeat;
         position: auto;
-        
+
         h1 {
-            text-shadow: 0px 5px 20px black;
+            text-shadow: 0px 3px 10px black;
             text-align: center;
-            font-size: calc(5vw + 1.9vh);
+            font-size: 25px;
         }
     }
 
