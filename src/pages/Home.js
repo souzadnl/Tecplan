@@ -6,7 +6,7 @@ import CardImage from "../components/CardImagem"
 function Home(){
     return (
         <div>
-            <ImagemTopoMenor image="./images/ImagemTopoHome.webp"></ImagemTopoMenor>
+            <ImagemTopoMenor image="./images/ImagemTopoHome.webp" text="ENCONTRE AQUI A MELHOR SOLUÇÃO PARA " textColored="PLANTAR"></ImagemTopoMenor>
             <ContainerProdutos></ContainerProdutos>
             <CardImage image="./images/Cardimage.webp"></CardImage>
         </div>
