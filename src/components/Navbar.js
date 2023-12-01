@@ -204,7 +204,6 @@ function Navbar() {
                 <div class="offcanvas offcanvas-end ml-5 max-sm:w-2/4 p-2 responsive" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                     <img src="/images/Logo.jpg" width="109.87px" alt="Logo tecplan"></img>
-                    <img src="./images/Logo.jpg" width="109.87px" alt="Logo tecplan"></img>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
